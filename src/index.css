@@ -1,7 +1,25 @@
 
 
 h1 {
+    font-family: Sans-serif, Times, Serif;
+    font-size: 30px;
     color: crimson;
     text-align: center;
-
+}
+p {
+    font-family: Sans-serif, Times, Serif;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    color: #ffffff;
+    color: rgb(255, 0, 0);
+}
+html {
+    text-align: center;
+}
+table {
+    text-align: center;
+}
+.section-header {
+    text-align: center;
 }

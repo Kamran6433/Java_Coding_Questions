@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
-
+        System.out.println("Hello World");
         int[] numbers = new int[10];
         numbers[0] = (int) (Math.random()*101);
         numbers[1] = (int) (Math.random()*101);
