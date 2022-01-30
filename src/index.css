@@ -1,25 +1,59 @@
-
+#user-input {
+    background-image: url("field.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    background-size: 500px;
+}
 
 h1 {
     font-family: Sans-serif, Times, Serif;
-    font-size: 30px;
-    color: crimson;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+    color: orangered;
     text-align: center;
+}
+#left-sidebar {
+    text-align: left;
 }
 p {
     font-family: Sans-serif, Times, Serif;
     font-size: 20px;
-    text-align: center;
-    color: red;
-    color: #ffffff;
-    color: rgb(255, 0, 0);
-}
-html {
+    font-weight: lighter;
     text-align: center;
 }
+/*html {*/
+/*     text-align: center;*/
+/* }*/
 table {
     text-align: center;
+    font-family: sans-serif;
 }
 .section-header {
+    text-align: center;
+}
+a {
+    font-family: sans-serif;
+    color: red;
+    font-weight: bold;
+}
+a:hover {
+    color: aqua;
+}
+#tables {
+    text-align: center;
+}
+#lists {
+    background-color: #e5e5e5;
+    background-position: 10% 70%;
+}
+h2 {
+    font-family: Sans-serif, Times, Serif;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+    color: red;
+    text-align: center;
+}
+li {
     text-align: center;
 }
