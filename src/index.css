@@ -1,4 +1,4 @@
-#user-input {
+.navigation-card {
     background-image: url("field.jpg");
     background-repeat: no-repeat;
     background-position: 50% ;
@@ -13,8 +13,11 @@ h1 {
     color: orangered;
     text-align: center;
 }
-#left-sidebar {
-    text-align: left;
+body {
+    height: 2000px;
+    background: url("field.jpg") no-repeat;
+    background-attachment: fixed;
+    border: 1px solid black;
 }
 p {
     font-family: Sans-serif, Times, Serif;
@@ -22,9 +25,9 @@ p {
     font-weight: lighter;
     text-align: center;
 }
-/*html {*/
-/*     text-align: center;*/
-/* }*/
+html {
+     text-align: center;
+ }
 table {
     text-align: center;
     font-family: sans-serif;
