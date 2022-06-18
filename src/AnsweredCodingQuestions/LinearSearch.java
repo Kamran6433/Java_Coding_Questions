@@ -1,4 +1,4 @@
-package UnansweredCodingQuestions;
+package AnsweredCodingQuestions;
 
 //Linear Search 0(n):
 // A linear Search is searching the array from the beginning to the end
