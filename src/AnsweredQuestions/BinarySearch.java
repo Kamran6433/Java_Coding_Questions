@@ -7,7 +7,12 @@ package AnsweredQuestions;
 // and updating the middle as you go along.)
 public class BinarySearch {
 
-    public int binarySearch(int[] nums, int target) {
+    public static void main(String[] args) {
+        int[] nums = {1, 3, 5, 8, 9, 10, 14, 20, 24, 27, 30, 50};
+        binarySearch(nums, 20);
+    }
+
+    public static int binarySearch(int[] nums, int target) {
 
         // Create the left and right pointers.
         int left = 0;
@@ -20,6 +25,7 @@ public class BinarySearch {
             int middle = (left + right) / 2;
 
             if (nums[middle] == target) {
+                System.out.println("index of " + target + ": " + middle);
                 return middle;
             }
 
@@ -37,6 +43,7 @@ public class BinarySearch {
         }
 
         // If nothing is found or the left moves past the right then return -1.
+        System.out.println(-1);
         return -1;
     }
 }
