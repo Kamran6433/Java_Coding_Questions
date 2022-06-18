@@ -1,7 +1,7 @@
 package AnsweredCodingQuestions;
 
-
-// Binary Search 0(log n): A Binary Search is searching a SORTED array by repeatedly dividing
+// Binary Search 0(log n):
+// A Binary Search is searching a SORTED array by repeatedly dividing
 // the search interval in half.
 // (Moving left 1 after the middle or moving right 1 before the middle
 // and updating the middle as you go along.)
