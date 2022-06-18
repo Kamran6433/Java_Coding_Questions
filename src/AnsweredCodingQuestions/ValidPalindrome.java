@@ -1,4 +1,4 @@
-package AnsweredQuestions;
+package AnsweredCodingQuestions;
 
 import java.util.ArrayList;
 

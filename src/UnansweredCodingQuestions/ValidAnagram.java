@@ -1,6 +1,4 @@
-package UnansweredQuestions;
-
-import java.util.Arrays;
+package UnansweredCodingQuestions;
 
 public class ValidAnagram {
 

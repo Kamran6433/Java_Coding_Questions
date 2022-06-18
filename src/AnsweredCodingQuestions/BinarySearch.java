@@ -1,4 +1,4 @@
-package AnsweredQuestions;
+package AnsweredCodingQuestions;
 
 
 // Binary Search 0(log n): A Binary Search is searching a SORTED array by repeatedly dividing
